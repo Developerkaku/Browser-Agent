@@ -2,6 +2,8 @@
 set -e
 
 pip install --upgrade pip
-pip install browser-use
-pip install playwright
-playwright install chromium
+pip install uv
+
+uv pip install browser-use
+uv pip install playwright
+uvx playwright install chromium
