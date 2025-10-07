@@ -6,4 +6,4 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install uv
 uv pip install browser-use
-uvx playwright install chromium --with-deps --no-shell
+uvx playwright install chromium
