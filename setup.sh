@@ -4,6 +4,6 @@ set -e
 python -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
-pip install uv
-uv pip install browser-use
-uvx playwright install chromium
+pip install browser-use
+pip install playwright
+plarwright install chromium
